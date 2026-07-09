@@ -8,6 +8,10 @@
 
 }
 
+header {
+    color: white;
+}
+
 nav {
     background-color: rgb(90, 84, 84);
     display: flex;
@@ -57,13 +61,43 @@ main h1 {
     grid-column: 1/5;
     border: solid black 2px;
     border-radius: 1%;
+    padding: 15px;
 }
+
+
+
+.card_1 p {
+    display: flex;
+    width: 500px;
+    height: auto;
+}
+
+#img_1 {
+    float: right;
+    width: 150px;
+    height: auto;
+}
+
+
+
+
 
 .card_2 {
     grid-column: 5/7;
     border: solid black 2px;
     border-radius: 1%;
+    padding: 15px;
+
 }
+
+
+
+
+
+
+
+
+
 
 
 img {
