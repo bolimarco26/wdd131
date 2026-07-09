@@ -15,9 +15,14 @@ nav {
     padding: 10px 200px;
 
     margin: 0 auto;
-
-
 }
+
+nav a:hover {
+    background-color: white;
+    color: rgb(92, 60, 209);
+    border-radius: 5px;
+}
+
 
 nav a {
     color: white;
