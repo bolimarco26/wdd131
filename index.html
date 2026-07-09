@@ -4,11 +4,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="author" content="Marco Pérez">
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals. Marco Pérez. Personal home page with information about me and my web development course.">
+    <title>WDD 131 – Dynamic Web Fundamentals – Marco Pérez</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+
 </head>
 
 <body>
-    <h1>Hola Marco</h1>
+    <header>
+        <span id="course-title">
+            WDD 131 – Dynamic Web Fundamentals
+        </span>
+
+        <nav>
+            <a href="www.linkedin.com/in/marcoperezm">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">I-Learn</a>
+            <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?lang=eng&id=p42#p42">Scripture</a>
+            <a href="#">Final Project</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <h1>Marco Pérez</h1>
+        <section class="card_main">
+            <section class="card_1">
+                <h2>About me</h2>
+                <p>Hello, my name is Marco Pérez. I am 27 years old and I am from La Paz, Bolivia.
+                    I enjoy learning to code, and my dream is to become a developer and work remotely.
+                    I love watching anime, as I often learn valuable lessons from them.
+                    Riding my bike helps me relax and reflect on future decisions,
+                    and I also enjoy taking pictures of nature and the outdoors.
+                    La Paz, my hometown, is the political capital of Bolivia, located in the Andes
+                    at about 3,650 meters above sea level, a place full of culture and breathtaking landscapes.
+                </p>
+
+                <img src="images/profile.jpg" alt="Marco Pérez Picture" width="400">
+
+
+                <h3>La Paz - Bolivia</h3>
+
+                <figure>
+                    <img src="images/la-paz-miraflores.jpg" alt="La Paz city view" width="400">
+                    <figcaption>
+                        La Paz, Bolivia.
+                    </figcaption>
+                </figure>
+
+
+
+
+
+                <p>
+                    La Paz, Bolivia, is the country’s administrative capital, dramatically nestled in a valley
+                    surrounded by
+                    the
+                    towering Andes at an altitude of about 3,650 meters above sea level. Known for its breathtaking
+                    landscapes, vibrant
+                    markets, and rich blend of modern life with ancient traditions, the city offers a unique cultural
+                    experience. Its
+                    winding streets, colorful neighborhoods, and views of Mount Illimani make La Paz a destination full
+                    of
+                    contrasts,
+                    history, and beauty.
+                </p>
+            </section>
+
+
+            <section class="card_2">
+                <h2>Web Dev Sources</h2>
+                <ul>
+                    <li><a href="#">The Odin Project</a></li>
+                    <li><a href="#">Free Code Camp</a></li>
+                    <li><a href="#">Codepedia</a></li>
+                    <li><a href="#">W3 Schools</a></li>
+                    <li><a href="#">Udemy</a></li>
+                    <li><a href="#">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+
+
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>&copy;
+            <span id="currentyear"></span>
+            2026 / Marco Pérez /
+            Bolivia
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+
 </body>
 
 </html>
