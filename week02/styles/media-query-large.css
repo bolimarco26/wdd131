@@ -1,0 +1,11 @@
+@media screen and (mind-width: 500px) {
+    header {
+        background-color: black;
+        color: white;
+    }
+
+    main {
+        grid-column: 4fr 1fr;
+    }
+
+}
