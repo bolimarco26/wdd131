@@ -1,3 +1,6 @@
+/*here is my css*/
+
+
 @media screen and (min-width: 768px) {
 
 
@@ -29,10 +32,7 @@
         border-radius: 5px;
     }
 
-
-
     .gallery {
         grid-template-columns: repeat(3, 1fr);
     }
-
 }
