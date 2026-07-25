@@ -1,7 +1,6 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* CSS Variables */
 :root {
     --primary-color: #c8102e;
     --secondary-color: #007a3d;
@@ -22,7 +21,6 @@ body {
     background: white;
 }
 
-/* HEADER */
 
 header {
     background: var(--primary-color);
@@ -36,14 +34,12 @@ header h1 {
     font-size: 2rem;
 }
 
-/* HERO */
 
 .hero img {
     width: 100%;
     display: block;
 }
 
-/* DATA & WEATHER */
 
 .data,
 .weather {
@@ -162,7 +158,6 @@ footer p {
 
     }
 
-    /* Emoji in desktop */
 
     .weather h2::after {
 
@@ -172,7 +167,6 @@ footer p {
 
     }
 
-    /* Hide SVG */
 
     .weather-icon {
 

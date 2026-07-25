@@ -1,4 +1,3 @@
-// Footer
 
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 
@@ -6,13 +5,9 @@ document.getElementById("lastModified").textContent =
     `Last Modification: ${document.lastModified}`;
 
 
-// Static Weather Data
-
 const temperature = 8;
 const windSpeed = 12;
 
-
-// Wind Chill Formula (Metric)
 
 function calculateWindChill(temp, speed) {
     return (
@@ -24,7 +19,6 @@ function calculateWindChill(temp, speed) {
 }
 
 
-// Display Wind Chill
 
 const windChill = document.getElementById("windChill");
 
