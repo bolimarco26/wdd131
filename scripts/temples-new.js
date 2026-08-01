@@ -85,7 +85,7 @@ const temples = [
         dedicated: "1919, November, 27",
         area: 42100,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/laie-hawaii/400x250/laie-hawaii-temple-761092-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg"
     },
     {
         templeName: "Rome Italy",
@@ -93,7 +93,7 @@ const temples = [
         dedicated: "2019, March, 10",
         area: 41010,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/400x250/rome_italy_temple_2.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-2642-main.jpg"
     },
     {
         templeName: "Salt Lake Utah",
@@ -101,7 +101,7 @@ const temples = [
         dedicated: "1893, April, 6",
         area: 253000,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-utah/400x250/salt-lake-temple-37762.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg"
     }
 ];
 
