@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320" height="90" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg">
+    <rect x="18" y="34" width="85" height="24" rx="10" fill="#003049"/>
+    <path d="M38 34 L55 18 H83 L98 34 Z" fill="#003049"/>
+    <path d="M45 34 L58 22 H79 L89 34 Z" fill="#FCBF49"/>
+    <circle cx="38" cy="62" r="8" fill="#222222"/>
+    <circle cx="84" cy="62" r="8" fill="#222222"/>
+    <circle cx="38" cy="62" r="3" fill="#FFFFFF"/>
+    <circle cx="84" cy="62" r="3" fill="#FFFFFF"/>
+    <circle cx="102" cy="44" r="3" fill="#FCBF49"/>
+    <text x="120" y="43"
+          font-family="Poppins, Arial, sans-serif"
+          font-size="26"
+          font-weight="700"
+          fill="#003049">RideNow</text>
+    <text x="120" y="66"
+          font-family="Roboto, Arial, sans-serif"
+          font-size="14"
+          fill="#555555">Bolivia</text>
+</svg>
