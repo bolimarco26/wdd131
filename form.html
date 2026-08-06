@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product Review Form">
+    <meta name="author" content="Marco Pérez">
+    <title>Product Review Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+
+        <form method="get" action="review.html">
+
+            <div class="form-group">
+                <label for="product">
+                    Product Name <span class="required">*</span>
+                </label>
+
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+
+                <p class="form-title">
+                    Overall Rating <span class="required">*</span>
+                </p>
+
+                <div class="rating">
+
+                    <label for="star1">
+                        ☆
+                    </label>
+                    <input type="radio" id="star1" name="rating" value="1" required>
+
+                    <label for="star2">
+                        ☆☆
+                    </label>
+                    <input type="radio" id="star2" name="rating" value="2">
+
+                    <label for="star3">
+                        ☆☆☆
+                    </label>
+                    <input type="radio" id="star3" name="rating" value="3">
+
+                    <label for="star4">
+                        ☆☆☆☆
+                    </label>
+                    <input type="radio" id="star4" name="rating" value="4">
+
+                    <label for="star5">
+                        ☆☆☆☆☆
+                    </label>
+                    <input type="radio" id="star5" name="rating" value="5">
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="installDate">
+                    Date of Installation
+                    <span class="required">*</span>
+                </label>
+
+                <input type="date" id="installDate" name="installDate" required>
+
+            </div>
+
+            <div class="form-group">
+
+                <p class="form-title">
+                    Which features did you find useful?
+                </p>
+
+                <p class="optional">(Check all that apply)</p>
+
+                <div class="checkbox-group">
+
+                    <label for="durability">
+                        <input type="checkbox" id="durability" name="features" value="Durability">
+                        Durability
+                    </label>
+
+                    <label for="ease">
+                        <input type="checkbox" id="ease" name="features" value="Ease of Use">
+                        Ease of Use
+                    </label>
+
+                    <label for="performance">
+                        <input type="checkbox" id="performance" name="features" value="Performance">
+                        Performance
+                    </label>
+
+                    <label for="design">
+                        <input type="checkbox" id="design" name="features" value="Design">
+                        Design
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="review">
+                    Written Review
+                    <span class="optional">(Optional)</span>
+                </label>
+
+                <textarea id="review" name="review" rows="6"></textarea>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="username">
+                    Your Name
+                    <span class="optional">(Optional)</span>
+                </label>
+
+                <input type="text" id="username" name="username">
+
+            </div>
+
+            <input type="submit" value="Post Review" class="submit-btn">
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy;
+            <span id="year"></span>
+            | Marco Pérez | Bolivia 🇧🇴
+        </p>
+
+        <p>
+            Last Modification:
+            <span id="lastModified"></span>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
